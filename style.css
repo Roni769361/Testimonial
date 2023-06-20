@@ -3,7 +3,7 @@ body {
   padding: 10px;
   scroll-behavior: smooth;
   background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.05)),
-    url("image/bg.jpg");
+    url("image/imageBg.jpg");
 
   /* background-position: center; */
   background-repeat: no-repeat;
@@ -87,7 +87,30 @@ body {
   padding: 10px;
   border-radius: 30px;
 }
-
+.contact {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  color: azure;
+  border: 1px solid gold;
+  background-color: rgba(39, 39, 39, 0.486);
+  padding: 5px;
+  border-radius: 30px;
+  margin-top: 5px;
+}
+.image img {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border-radius: 50%;
+}
+.card {
+  background-color: rgba(39, 39, 39, 0.486);
+  padding: 5px;
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
 .testBtn {
   background-color: rgb(255, 238, 0);
   color: red;
@@ -96,7 +119,6 @@ body {
   border: 2px solid red;
   border-radius: 10px;
   text-decoration: none;
-  transition: ;
 }
 
 .testBtn:hover {
@@ -193,7 +215,7 @@ footer {
 
 /* Apply background color and spacing */
 footer {
-  background-color: #79787875;
+  background-color: #797878da;
   color: rgb(253, 253, 23);
   padding: 20px 0;
 }
