@@ -275,7 +275,7 @@ html {
 }
 
 /* Apply zoom-in and zoom-out animations to the h2 element inside Notify */
-.zoomInZoomOut h2 {
+.zoomInZoomOut h4 {
   animation: zoomIn 2s infinite alternate, zoomOut 2s infinite alternate; /* 2s duration, infinite loop, alternate direction */
 }
 
@@ -287,7 +287,7 @@ html {
   }
 
   /* Apply font-size h2 in mobile view */
-  .zoomInZoomOut h2 {
+  .zoomInZoomOut h4 {
     animation-duration: 1.5s;
     font-size: h2;
   }
@@ -300,7 +300,7 @@ html {
   }
 
   /* Apply font-size h3 in smaller mobile view */
-  .zoomInZoomOut h2 {
+  .zoomInZoomOut h4 {
     animation-duration: 1s;
     font-size: h3;
   }
@@ -308,7 +308,7 @@ html {
 
 @media (max-width: 400px) {
   /* Apply font-size h4 in the smallest mobile view */
-  .zoomInZoomOut h2 {
+  .zoomInZoomOut h4 {
     font-size: h4;
   }
 }
